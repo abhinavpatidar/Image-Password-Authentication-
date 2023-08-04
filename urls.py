@@ -1,20 +1,22 @@
+"""graphical_pwd_auth URL Configuration
+
+The `urlpatterns` list routes URLs to views. For more information please see:
+    https://docs.djangoproject.com/en/2.2/topics/http/urls/
+Examples:
+Function views
+    1. Add an import:  from my_app import views
+    2. Add a URL to urlpatterns:  path('', views.home, name='home')
+Class-based views
+    1. Add an import:  from other_app.views import Home
+    2. Add a URL to urlpatterns:  path('', Home.as_view(), name='home')
+Including another URLconf
+    1. Import the include() function: from django.urls import include, path
+    2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
+"""
+from django.contrib import admin
 from django.urls import path, include
-from .views import (
-    home_page, 
-    register_page, 
-    login_page, 
-    logout_page, 
-    login_from_uid, 
-    reset_view, 
-    reset_from_uid,
-    )
 
 urlpatterns = [
-    path('', home_page, name='home'),
-    path('register/', register_page, name='register'),
-    path('login/', login_page, name='login'),
-    path('login/<str:uid>', login_from_uid, name='login_uid'),
-    path('logout/', logout_page, name='logout'),
-    path('reset/', reset_view, name='reset'),
-    path('reset/<str:uid>', reset_from_uid, name='reset_uid'),
+    path('', include('home.urls')),
+    path('admin/', admin.site.urls),
 ]
