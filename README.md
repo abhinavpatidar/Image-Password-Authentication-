@@ -1,7 +1,7 @@
-# Graphical Password Authentincation
+# Image Password Authentincation
 
 ## Introduction
-A Graphical Password Authentication system is an authentication system that uses some combination of graphical images replacing the regular passwords. Graphical passwords may offer better security than text-based passwords because most of the people use regular, popular passwords everywhere and are prone to social engineering attacks. So graphical passwords can put stop to many attacks of this kind.
+A Image Password Authentication system is an authentication system that uses some combination of graphical images replacing the regular passwords. Graphical passwords may offer better security than text-based passwords because most of the people use regular, popular passwords everywhere and are prone to social engineering attacks. So graphical passwords can put stop to many attacks of this kind.
 
 <br>
 
@@ -24,33 +24,15 @@ Since the adversary is made to believe that the password is a set of images, itâ
 <br>
 
 ## Screenshots
-Welcome Page
-![](screenshots/gpwd1.png)
-<br> <br>
-Sign Up Page
-![](screenshots/gpwd2.png)
-<br>
-![](screenshots/gpwd3.png)
-<br>
-After logging in
-![](screenshots/gpwd4.png)
-<br> <br>
-Password Reset Page
-![](screenshots/gpwd5.png)
-<br>
-![](screenshots/gpwd6.png)
-<br>
-Mail received with password reset link
-![](screenshots/gpwd7.png)
-<br>
-![](screenshots/gpwd8.png)
-<br> <br>
-Account blocked due to multiple Failed attempts
-![](screenshots/gpwd9.png)
-<br> Notification mail received of Account blockage
-![](screenshots/gpwd10.png)
+![pass](https://github.com/abhinavpatidar/Image-Password-Authentication-/assets/78012583/30962394-b975-4487-9ccb-64172f5665e5)
+![pass1 (2)](https://github.com/abhinavpatidar/Image-Password-Authentication-/assets/78012583/cd88efc6-7f24-4252-b84f-447e97d156a8)
+![pass](https://github.com/abhinavpatidar/Image-Password-Authentication-/assets/78012583/ba65ffae-3dfe-4663-8b7e-45a00b9a433c)
+![pass1 (9)](https://github.com/abhinavpatidar/Image-Password-Authentication-/assets/78012583/13c075f9-0715-4459-aa46-cb57d1b9b5c2)
 
-<br>
+![pass1 (3)](https://github.com/abhinavpatidar/Image-Password-Authentication-/assets/78012583/da838049-63a7-4296-8dcd-abf13d7dbb7a)
+![pass1 (4)](https://github.com/abhinavpatidar/Image-Password-Authentication-/assets/78012583/9333cb57-4ddd-47cf-910c-6eb43f59d8ed)
+![pass1 (8)](https://github.com/abhinavpatidar/Image-Password-Authentication-/assets/78012583/f754e531-9c7f-4901-bb69-8b33da5c11a8)
+![pass1 (7)](https://github.com/abhinavpatidar/Image-Password-Authentication-/assets/78012583/26372769-a422-41d8-8736-6b2988cbad0e)
 
 #### Thank you
 
